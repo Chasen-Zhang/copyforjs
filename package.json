@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git:github.com/Chasen-Zhang/copyjs.git"
+    "url": "git://github.com/Chasen-Zhang/copyjs.git"
   },
   "keywords": [],
   "author": "",
