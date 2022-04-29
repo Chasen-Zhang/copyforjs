@@ -12,12 +12,15 @@ function noneSecurity(textToCopy: string){
     textArea.remove();
   });
 }
-
 // copy text
 export function copyToClipboard(textToCopy: string) {
-if (navigator.clipboard && window.isSecureContext && document.execCommand) {
-  return navigator.clipboard.writeText(textToCopy);
-} else {
-  noneSecurity(textToCopy);
-}
+  if (navigator.clipboard && window.isSecureContext) {
+    if (document?.execCommand??'') {
+      noneSecurity(textToCopy);
+    } else {
+      return navigator.clipboard.writeText(textToCopy);
+    }
+  } else {
+    noneSecurity(textToCopy);
+  }
 }
