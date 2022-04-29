@@ -1,6 +1,6 @@
 {
   "name": "copyjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple copy for javascript",
   "main": "./dist/index.js",
   "scripts": {
