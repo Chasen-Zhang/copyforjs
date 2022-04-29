@@ -19,6 +19,7 @@ jobs:
         run: |
           yarn install
           yarn run build
+          npm login
 
       - name: 'Publish to the npm registry'
         uses: primer/publish@3.0.0
