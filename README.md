@@ -1,2 +1,2 @@
 # copyjs
-simple copy for javascript
+Simple copy for javascript
