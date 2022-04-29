@@ -1,0 +1,24 @@
+{
+  "name": "copyjs",
+  "version": "1.0.0",
+  "description": "Simple copy for javascript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chasen-Zhang/copyjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chasen-Zhang/copyjs/issues"
+  },
+  "homepage": "https://github.com/Chasen-Zhang/copyjs#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
