@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chasen-Zhang/copyjs.git"
+    "url": "git+https://github.com/Chasen-Zhang/copyforjs.git"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
@@ -22,9 +22,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Chasen-Zhang/copyjs/issues"
+    "url": "https://github.com/Chasen-Zhang/copyforjs/issues"
   },
-  "homepage": "https://github.com/Chasen-Zhang/copyjs#readme",
+  "homepage": "https://github.com/Chasen-Zhang/copyforjs#readme",
   "dependencies": {
     "typescript": "^4.6.4"
   }
