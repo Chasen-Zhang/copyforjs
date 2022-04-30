@@ -4,5 +4,7 @@ Simple copy to clipboard for javascript, Compatible with all browsers and mobile
 
 ```js
 import { copyToClipboard } from 'copyforjs';
-copyToClipboard('string')
+```
+```js
+copyToClipboard('string');
 ```
