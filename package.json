@@ -2,7 +2,7 @@
   "name": "copyforjs",
   "version": "1.0.3",
   "private": false,
-  "description": "Simple copy for javascript",
+  "description": "Simple copy for javascript， Compatible with all browsers and mobile browsers",
   "main": "./dist/index.js",
   "files": [
     "dist"
