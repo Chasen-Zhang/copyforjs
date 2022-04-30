@@ -3,6 +3,6 @@
 Simple copy for javascript
 
 ```js
-import { copyToClipboard } from 'copyjs';
+import { copyToClipboard } from 'copyforjs';
 copyToClipboard('string')
 ```
