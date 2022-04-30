@@ -1,6 +1,6 @@
 {
   "name": "copyforjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "Simple copy for javascript， Compatible with all browsers and mobile browsers",
   "main": "./dist/index.js",
@@ -15,7 +15,16 @@
     "type": "git",
     "url": "git+https://github.com/Chasen-Zhang/copyforjs.git"
   },
-  "keywords": [],
+  "keywords": [
+    "copyjs",
+    "copy.js",
+    "copy",
+    "js",
+    "javascript",
+    "paste",
+    "clipboard",
+    "simpleness"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
