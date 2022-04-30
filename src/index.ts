@@ -13,14 +13,15 @@ function noneSecurity(textToCopy: string){
   });
 }
 // copy text
-export function copyToClipboard(textToCopy: string) {
+export function copyToClipboard(textToCopy: string | number | boolean | any) {
+  const t = String(textToCopy);
   if (navigator.clipboard && window.isSecureContext) {
     if (document?.execCommand??'') {
-      noneSecurity(textToCopy);
+      noneSecurity(t);
     } else {
-      return navigator.clipboard.writeText(textToCopy);
+      return navigator.clipboard.writeText(t);
     }
   } else {
-    noneSecurity(textToCopy);
+    noneSecurity(t);
   }
 }
