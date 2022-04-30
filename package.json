@@ -1,6 +1,6 @@
 {
-  "name": "@Chasen-Zhang/copyforjs",
-  "version": "1.0.3",
+  "name": "copyforjs",
+  "version": "1.0.1",
   "private": false,
   "description": "Simple copy for javascript",
   "main": "./dist/index.js",
@@ -14,9 +14,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chasen-Zhang/copyforjs.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
