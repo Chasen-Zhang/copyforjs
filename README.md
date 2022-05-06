@@ -1,4 +1,4 @@
-# copyjs
+# copyforjs
 
 Simple copy to clipboard for javascript, Compatible with all browsers and mobile browsers
 
